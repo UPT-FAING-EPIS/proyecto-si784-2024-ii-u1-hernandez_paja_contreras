@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_Asistencia" Class="DataClasesResumenDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=KONOR-RA9\JESUS;Initial Catalog=db_Asistencia;User ID=sa" SettingsObjectName="TGU3_Briceño_Lopez_Hernandez_Huallpa.Properties.Settings" SettingsPropertyName="db_AsistenciaConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SP_LoginUsuario" Method="SP_LoginUsuario">
+    <Parameter Name="pusuario" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ppassword" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="SP_LoginUsuarioResult">
+      <Column Name="IdUsuario" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="usuario" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Nivel" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Asistencia_Empleado" Method="SP_Asistencia_Empleado">
+    <Parameter Name="buscar" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="SP_Asistencia_EmpleadoResult">
+      <Column Name="IdAsistencia" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaAsistencia" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HoraEntrada" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="HoraSalida" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>
