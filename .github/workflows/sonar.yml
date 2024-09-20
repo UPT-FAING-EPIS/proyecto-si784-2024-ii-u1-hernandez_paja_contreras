@@ -31,6 +31,9 @@ jobs:
       - name: Run SonarScanner begin
         run: dotnet sonarscanner begin /k:"API_BANK" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /o:"alvarocontreras13"
 
+      - name: Change directory to ControlAsistencia
+        run: cd ControlAsistencia
+
       - name: Build the project
         run: dotnet build ControlAsistencia.sln
 
