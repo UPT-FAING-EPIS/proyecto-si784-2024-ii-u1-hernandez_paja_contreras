@@ -29,7 +29,7 @@ jobs:
         run: dotnet tool install --global dotnet-sonarscanner
 
       - name: Run SonarScanner begin
-        run: dotnet sonarscanner begin /k:"API_BANK" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /o:"alvarocontreras13"
+        run: dotnet sonarscanner begin /k:"APIBANK" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /o:"alvarocontreras13"
 
       - name: Build the project
         run: dotnet build ControlAsistencia/ControlAsistencia.sln
