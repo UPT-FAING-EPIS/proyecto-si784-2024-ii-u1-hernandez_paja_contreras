@@ -1,37 +1,37 @@
-name: Sonar Continuos Integration
-env:
-  DOTNET_VERSION: '8.x'                     # la versión de .NET
-  SONAR_ORG: 'alvarocontreras13'                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: 'APIBANK'        # Key ID del proyecto de sonar
+name: SonarCloud Analysis
+
 on:
   push:
-    branches: [ "main" ]
-  workflow_dispatch:
-  
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
 jobs:
-  sonarqube:
-    name: Sonarqube Analisys
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
         with:
-          distribution: 'temurin'
-          java-version: '17'
-      - name: Configurando la versión de NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-      - name: Cambiar directorio
-        run: cd ControlAsistencia
-      - name: Restaurar los paquetes
-        run: dotnet restore ControlAsistencia.sln
-      - name: Ejecutar pruebas
-        run: dotnet test ControlAsistencia.WebApi.Tests/ControlAsistencia.WebApi.Tests.csproj --collect:"XPlat Code Coverage;Format=opencover"
-      - name: Instalar Scanner
-        run: dotnet tool install -g dotnet-sonarscanner
-      - name: Ejecutar escaneo
-        run: | 
-          dotnet-sonarscanner begin /k:"${{ env.SONAR_PROJECT }}" /o:"${{ env.SONAR_ORG }}" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.opencover.reportsPaths="*/*/*/coverage.opencover.xml" /d:sonar.qualitygate.wait=true
-          dotnet build
-          dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+          dotnet-version: '8.x'
+
+      - name: Restore packages
+        run: dotnet restore ./ControlAsistencia/ControlAsistencia.sln
+
+      - name: Begin SonarCloud Analysis
+        run: dotnet sonarscanner begin /k:"API_BANK" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /o:"alvarocontreras13"
+
+      - name: Build
+        run: dotnet build ./ControlAsistencia/ControlAsistencia.sln --no-restore
+
+      - name: Run Tests
+        run: dotnet test ./ControlAsistencia/ControlAsistencia.sln --collect:"XPlat Code Coverage;Format=opencover"
+
+      - name: End SonarCloud Analysis
+        run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
