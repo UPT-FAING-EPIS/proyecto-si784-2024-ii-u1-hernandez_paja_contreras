@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_Asistencia" Class="TablaAsistenciaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-AFGNGKL;Initial Catalog=db_Asistencia;User ID=sa" SettingsObjectName="TGU3_Briceño_Lopez_Hernandez_Huallpa.Properties.Settings" SettingsPropertyName="db_AsistenciaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Asistencia" Member="Asistencia">
+    <Type Name="Asistencia">
+      <Column Name="IdAsistencia" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdEmpleado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaAsistencia" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HoraEntrada" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="HoraSalida" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
