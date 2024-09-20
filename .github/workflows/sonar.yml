@@ -1,4 +1,4 @@
-name: SonarCloud Analysis
+name: SonarCloud
 
 on:
   push:
@@ -9,11 +9,12 @@ on:
       - main
 
 jobs:
-  build:
+  sonarcloud:
+    name: SonarCloud Scan
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Setup .NET
@@ -21,17 +22,20 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Restore packages
-        run: dotnet restore ./ControlAsistencia/ControlAsistencia.sln
+      - name: Add dotnet tools to PATH
+        run: echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
 
-      - name: Begin SonarCloud Analysis
+      - name: Install dotnet-sonarscanner
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Run SonarScanner begin
         run: dotnet sonarscanner begin /k:"API_BANK" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /o:"alvarocontreras13"
 
-      - name: Build
-        run: dotnet build ./ControlAsistencia/ControlAsistencia.sln --no-restore
+      - name: Build the project
+        run: dotnet build ControlAsistencia.sln
 
-      - name: Run Tests
-        run: dotnet test ./ControlAsistencia/ControlAsistencia.sln --collect:"XPlat Code Coverage;Format=opencover"
+      - name: Run tests and collect coverage
+        run: dotnet test ControlAsistencia.sln --collect:"XPlat Code Coverage;Format=opencover"
 
-      - name: End SonarCloud Analysis
+      - name: Run SonarScanner end
         run: dotnet sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
