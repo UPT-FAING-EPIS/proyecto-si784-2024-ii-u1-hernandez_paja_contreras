@@ -2,12 +2,12 @@ name: Sonar Continuos Integration
 env:
   DOTNET_VERSION: '8.x'                     # la versión de .NET
   SONAR_ORG: 'alvarocontreras13'                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: ''        # Key ID del proyecto de sonar
+  SONAR_PROJECT: 'APIBANK'        # Key ID del proyecto de sonar
 on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-
+  
 jobs:
   sonarqube:
     name: Sonarqube Analisys
@@ -22,10 +22,12 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: Cambiar directorio
+        run: cd ControlAsistencia
       - name: Restaurar los paquetes
-        run: dotnet restore 
+        run: dotnet restore ControlAsistencia.sln
       - name: Ejecutar pruebas
-        run: dotnet test --collect:"XPlat Code Coverage;Format=opencover"
+        run: dotnet test ControlAsistencia.WebApi.Tests/ControlAsistencia.WebApi.Tests.csproj --collect:"XPlat Code Coverage;Format=opencover"
       - name: Instalar Scanner
         run: dotnet tool install -g dotnet-sonarscanner
       - name: Ejecutar escaneo
