@@ -1,6 +1,6 @@
-t
-ZC:\users\alvaro\desktop\cali\ControlAsistencia\ControlAsistencia.WebApi.Tests\UnitTest1.cs
+x
+^C:\users\alvaro\desktop\software\controlasistencia\ControlAsistencia.WebApi.Tests\UnitTest1.cs
 
- 
+ 
 
- 
+ 

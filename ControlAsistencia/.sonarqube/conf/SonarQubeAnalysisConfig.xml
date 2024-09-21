@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>C:\users\alvaro\desktop\cali\ControlAsistencia</SonarScannerWorkingDirectory>
+  <SonarConfigDir>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>C:\users\alvaro\desktop\software\controlasistencia</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\ALVARO\.sonar\cache\4bafe2e94439c8193fc8c68247cb0dbaf4e80265b903288f63f128304f129bbe\OpenJDK17U-jre_x64_windows_hotspot_17.0.11_9.zip_extracted\jdk-17.0.11+9-jre/bin/java.exe</JavaExePath>
   <ScanAllAnalysis>true</ScanAllAnalysis>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
-  <SonarQubeVersion>8.0.0.56697</SonarQubeVersion>
+  <SonarQubeVersion>8.0.0.56719</SonarQubeVersion>
   <SonarProjectKey>alvarocontreras13_apibank</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\users\alvaro\desktop\cali\ControlAsistencia" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\users\alvaro\desktop\software\controlasistencia" />
     <ConfigSetting Id="settings.file.path" Value="C:\Users\ALVARO\.dotnet\tools\.store\dotnet-sonarscanner\8.0.3\dotnet-sonarscanner\8.0.3\tools\netcoreapp3.1\any\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -178,7 +178,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
     <Property Name="sonar.maintenance_mode.link">https://community.sonarsource.com/t/sonarcloud-autoscan-maintenance-september-28th-07-00-and-09-00-cet/101442</Property>
     <Property Name="sonar.maintenance_mode.start_date">2023-09-28T09:10:00:00.000+01:00</Property>
     <Property Name="sonar.sensor.cache.baseUrl">https://api.sonarcloud.io/analysis</Property>
-    <Property Name="sonar.core.startTime">18/09/2024 06:58:04</Property>
+    <Property Name="sonar.core.startTime">20/09/2024 07:48:54</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
@@ -187,8 +187,8 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.32.0.97167" StaticResourceName="SonarAnalyzer-9.32.0.97167.zip">
           <AssemblyPaths>
@@ -218,13 +218,13 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="9.32.0.97167" StaticResourceName="SonarAnalyzer-9.32.0.97167.zip">
           <AssemblyPaths>
@@ -248,7 +248,7 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\users\alvaro\desktop\cali\ControlAsistencia\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>C:\users\alvaro\desktop\software\controlasistencia\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>

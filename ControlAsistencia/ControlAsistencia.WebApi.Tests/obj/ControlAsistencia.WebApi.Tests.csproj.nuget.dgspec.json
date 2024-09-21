@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj": {}
+    "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj": {
+    "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj",
+        "projectUniqueName": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj",
         "projectName": "ControlAsistencia.WebApi.Tests",
-        "projectPath": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi.Tests\\obj\\",
+        "projectPath": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi.Tests\\ControlAsistencia.WebApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\ALVARO\\.nuget\\packages\\",
+        "outputPath": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALVARO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj": {
-                "projectPath": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj"
+              "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj": {
+                "projectPath": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj"
               }
             }
           }
@@ -87,17 +87,17 @@
         }
       }
     },
-    "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj": {
+    "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj",
+        "projectUniqueName": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj",
         "projectName": "ControlAsistencia.WebApi",
-        "projectPath": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\Desktop\\wdaw\\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\\ControlAsistencia\\ControlAsistencia.WebApi\\obj\\",
+        "projectPath": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\ControlAsistencia.WebApi.csproj",
+        "packagesPath": "C:\\Users\\ALVARO\\.nuget\\packages\\",
+        "outputPath": "C:\\users\\alvaro\\desktop\\software\\controlasistencia\\ControlAsistencia.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALVARO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
