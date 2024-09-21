@@ -3,5 +3,5 @@ projectKey=alvarocontreras13_apibank
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.56719
 dashboardUrl=https://sonarcloud.io/dashboard?id=alvarocontreras13_apibank
-ceTaskId=AZIT4Q-dTW5KhCmSNDRN
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZIT4Q-dTW5KhCmSNDRN
+ceTaskId=AZIT6uZwPmRU0dvYnrBN
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZIT6uZwPmRU0dvYnrBN

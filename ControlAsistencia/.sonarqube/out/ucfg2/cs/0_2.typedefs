@@ -1,23 +1,23 @@
-š
-Program.WeatherForecastobjectSystem.IEquatable<T>x
-.WeatherForecast(System.DateOnly, int, string?)FProgram.WeatherForecast.WeatherForecast(System.DateOnly, int, string?)0
+Í
+)TuNombreDeEspacio.Program.WeatherForecastobjectSystem.IEquatable<T>Š
+.WeatherForecast(System.DateOnly, int, string?)XTuNombreDeEspacio.Program.WeatherForecast.WeatherForecast(System.DateOnly, int, string?)B
 
-ToString()"Program.WeatherForecast.ToString()j
-'PrintMembers(System.Text.StringBuilder)?Program.WeatherForecast.PrintMembers(System.Text.StringBuilder)6
-GetHashCode()%Program.WeatherForecast.GetHashCode():
-Equals(object?)'Program.WeatherForecast.Equals(object?)\
- Equals(Program.WeatherForecast?)8Program.WeatherForecast.Equals(Program.WeatherForecast?)0
+ToString()4TuNombreDeEspacio.Program.WeatherForecast.ToString()|
+'PrintMembers(System.Text.StringBuilder)QTuNombreDeEspacio.Program.WeatherForecast.PrintMembers(System.Text.StringBuilder)H
+GetHashCode()7TuNombreDeEspacio.Program.WeatherForecast.GetHashCode()L
+Equals(object?)9TuNombreDeEspacio.Program.WeatherForecast.Equals(object?)’
+2Equals(TuNombreDeEspacio.Program.WeatherForecast?)\TuNombreDeEspacio.Program.WeatherForecast.Equals(TuNombreDeEspacio.Program.WeatherForecast?)B
 
-<Clone>$()"Program.WeatherForecast.<Clone>$()l
-(WeatherForecast(Program.WeatherForecast)@Program.WeatherForecast.WeatherForecast(Program.WeatherForecast)ˆ
-6Deconstruct(out System.DateOnly, out int, out string?)NProgram.WeatherForecast.Deconstruct(out System.DateOnly, out int, out string?)D
-EqualityContract.get,Program.WeatherForecast.EqualityContract.getD
-EqualityContract.set,Program.WeatherForecast.EqualityContract.set,
-Date.get Program.WeatherForecast.Date.get.
-	Date.init!Program.WeatherForecast.Date.init<
-TemperatureC.get(Program.WeatherForecast.TemperatureC.get>
-TemperatureC.init)Program.WeatherForecast.TemperatureC.init2
-Summary.get#Program.WeatherForecast.Summary.get4
-Summary.init$Program.WeatherForecast.Summary.init<
-TemperatureF.get(Program.WeatherForecast.TemperatureF.get<
-TemperatureF.set(Program.WeatherForecast.TemperatureF.set
+<Clone>$()4TuNombreDeEspacio.Program.WeatherForecast.<Clone>$()¢
+:WeatherForecast(TuNombreDeEspacio.Program.WeatherForecast)dTuNombreDeEspacio.Program.WeatherForecast.WeatherForecast(TuNombreDeEspacio.Program.WeatherForecast)š
+6Deconstruct(out System.DateOnly, out int, out string?)`TuNombreDeEspacio.Program.WeatherForecast.Deconstruct(out System.DateOnly, out int, out string?)V
+EqualityContract.get>TuNombreDeEspacio.Program.WeatherForecast.EqualityContract.getV
+EqualityContract.set>TuNombreDeEspacio.Program.WeatherForecast.EqualityContract.set>
+Date.get2TuNombreDeEspacio.Program.WeatherForecast.Date.get@
+	Date.init3TuNombreDeEspacio.Program.WeatherForecast.Date.initN
+TemperatureC.get:TuNombreDeEspacio.Program.WeatherForecast.TemperatureC.getP
+TemperatureC.init;TuNombreDeEspacio.Program.WeatherForecast.TemperatureC.initD
+Summary.get5TuNombreDeEspacio.Program.WeatherForecast.Summary.getF
+Summary.init6TuNombreDeEspacio.Program.WeatherForecast.Summary.initN
+TemperatureF.get:TuNombreDeEspacio.Program.WeatherForecast.TemperatureF.getN
+TemperatureF.set:TuNombreDeEspacio.Program.WeatherForecast.TemperatureF.set

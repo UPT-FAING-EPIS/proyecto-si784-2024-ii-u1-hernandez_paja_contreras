@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TuNombreDeEspacio // Reemplaza "TuNombreDeEspacio" con el nombre que desees
+namespace ControlAsistencia
 {
     public class Program
     {
@@ -51,10 +51,7 @@ namespace TuNombreDeEspacio // Reemplaza "TuNombreDeEspacio" con el nombre que d
             await app.RunAsync();
         }
 
-        // Definición del record para el WeatherForecast
-        record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-        {
-            public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-        }
+        // Definición del record para el WeatherForecast sin la propiedad no utilizada
+        record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary);
     }
 }
