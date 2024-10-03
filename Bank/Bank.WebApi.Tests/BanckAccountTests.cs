@@ -1,11 +1,12 @@
 using Bank.WebApi.Models;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Bank.Domain.Tests
+namespace Bank.WebApi.Tests
 {
+    [TestClass]  // Cambia de [TestFixture] a [TestClass]
     public class BankAccountTests
     {
-        [Test]
+        [TestMethod]  // Cambia de [Test] a [TestMethod]
         public void Debit_WithValidAmount_UpdatesBalance()
         {
             // Arrange

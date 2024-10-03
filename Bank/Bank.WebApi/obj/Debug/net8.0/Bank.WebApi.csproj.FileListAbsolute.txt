@@ -1,0 +1,29 @@
+C:\app\build\appsettings.Development.json
+C:\app\build\appsettings.json
+C:\app\build\Bank.WebApi.exe
+C:\app\build\Bank.WebApi.deps.json
+C:\app\build\Bank.WebApi.runtimeconfig.json
+C:\app\build\Bank.WebApi.dll
+C:\app\build\Bank.WebApi.pdb
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.AssemblyInfoInputs.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.AssemblyInfo.cs
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.sourcelink.json
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Bank.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.Bank.WebApi.props
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Bank.WebApi.props
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Bank.WebApi.props
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\scopedcss\bundle\Bank.WebApi.styles.css
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.Web.5834ACD9.Up2Date
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.dll
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\refint\Bank.WebApi.dll
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.pdb
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\Bank.WebApi.genruntimeconfig.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi\obj\Debug\net8.0\ref\Bank.WebApi.dll

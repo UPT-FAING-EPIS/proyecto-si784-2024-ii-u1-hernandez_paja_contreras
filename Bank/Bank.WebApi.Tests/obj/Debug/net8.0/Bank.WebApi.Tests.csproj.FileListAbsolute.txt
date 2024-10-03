@@ -1,0 +1,7 @@
+C:\app\build\CoverletSourceRootsMapping_Bank.WebApi.Tests
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.csproj.AssemblyReference.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.AssemblyInfoInputs.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.AssemblyInfo.cs
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.csproj.CoreCompileInputs.cache
+C:\Users\angel\Documents\Calidad\ultimo ahora si Xd\proyecto-si784-2024-ii-u1-hernandez_paja_contreras\Bank\Bank.WebApi.Tests\obj\Debug\net8.0\Bank.WebApi.Tests.sourcelink.json
