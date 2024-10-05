@@ -221,15 +221,21 @@ Código Corregido:
 
 **Move 'Program' into a named namespace**
 
+**Código Corregido:**
+
 ![sonar-3](./media/sonar-3.png)
 
 **Descripción de los cambios:** 
 
 * Eliminación de TemperatureF: Se ha removido la propiedad TemperatureF del record WeatherForecast, ya que no se utilizaba en el código. Esto ayuda a reducir la complejidad y mejora la mantenibilidad del código.
 
+<br>
 
-**Código Corregido:**
+**Snyk:**
+
+no se encontraron errores en el código
+
+![snyk](./media/snyk.png)
 
 
-8. Cronograma
-   (personas, tiempo, otros recursos) Basado en las observaciones que la herramienta SonarQube les informara         sobre la aplicación, a fin de reducir la deuda tecnica, vulnerabilidades, fallas, etc. a 0.
+
