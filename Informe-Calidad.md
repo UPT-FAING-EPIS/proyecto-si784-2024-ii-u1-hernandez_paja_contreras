@@ -161,6 +161,10 @@ Abstract
 - **DB (Database)**: Base de datos utilizada por el sistema para almacenar información de los empleados y sus asistencias.
 - **CRUD (Create, Read, Update, Delete)**: Conjunto de operaciones básicas para la gestión de datos en la base de datos.
 
+**DIAGRAMA DE PAQUETES**
+
+![paquetes](./media/paquetes.png)
+
 **DIAGRAMA ENTIDAD-RELACIÓN**
 
 ![entidad-relacion](./media/entidad-relacion.png)
