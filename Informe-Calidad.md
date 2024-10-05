@@ -165,6 +165,10 @@ Abstract
 
 ![entidad-relacion](./media/entidad-relacion.png)
 
+**DIAGRAMA DE CLASES**
+
+![clases](./media/clases.png)
+
 **DIAGRAMA DE CASOS DE USO**
 
 ![casos-de-uso](./media/casos-de-uso.png)
