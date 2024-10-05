@@ -88,7 +88,14 @@ El alcance principal del sistema está limitado únicamente a personas autorizad
 
 [5.1 General](#_Toc52661350)
 
+El objetivo principal es un diseño minimalista que proporcione un ambiente amigable, permitiendo al usuario acceder y utilizar el sistema con facilidad, así como ingresar o encontrar rápidamente los datos necesarios.
+
 [5.2 Especificos](#_Toc52661351)
+
+* Evitar la vulneración de contraseñas mediante ataques de diccionario.
+* Prevenir la exposición de datos personales.
+* Facilitar la navegación en relación con los usuarios registrados.
+
 
 [6. Referentes teóricos](#_Toc52661357)
 
