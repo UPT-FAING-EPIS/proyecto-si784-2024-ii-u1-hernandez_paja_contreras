@@ -173,6 +173,10 @@ Abstract
 
 ![clases](./media/clases.png)
 
+**DIAGRAMA DE SECUENCIA**
+
+![secuencia](./media/secuencia.png)
+
 **DIAGRAMA DE CASOS DE USO**
 
 ![casos-de-uso](./media/casos-de-uso.png)
@@ -184,6 +188,7 @@ Abstract
 **DIAGRAMA DE DESPLIEGUE**
 
 ![despliegue](./media/despliegue.png)
+
 
 7. Desarrollo de la propuesta 
 
@@ -245,5 +250,15 @@ no se encontraron errores en el código
 
 ![snyk](./media/snyk.png)
 
+
+Referencias:
+
+* Juanjo. (2022, September 20). Qué es SonarCloud y cómo mejora la calidad de tu código. Platzi. https://platzi.com/blog/sonarcloud-mejora-codigo-sast/
+
+‌* Vergara, S. (2019, February 21). Seguridad continua en tus desarrollos con Snyk. Blog ITDO - Agencia de Desarrollo Web, APPs Y Marketing En Barcelona. https://www.itdo.com/blog/seguridad-continua-en-tus-desarrollos-con-snyk/
+
+‌* Quickstart | Semgrep. (2024, September 20). Semgrep.dev. https://semgrep.dev/docs/getting-started/quickstart
+
+‌
 
 
