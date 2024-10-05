@@ -161,12 +161,41 @@ Abstract
 - **DB (Database)**: Base de datos utilizada por el sistema para almacenar información de los empleados y sus asistencias.
 - **CRUD (Create, Read, Update, Delete)**: Conjunto de operaciones básicas para la gestión de datos en la base de datos.
 
+**DIAGRAMA ENTIDAD-RELACIÓN**
 
-7. Desarrollo de la propuesta (Aqui va el analisis de su aplicación con SonarQube y Snyk, para que les muestre todos los aspectos a mejorar de su aplicación)
+![entidad-relacion](./media/entidad-relacion.png)
 
-    7.1.   Tecnología de información 
+**DIAGRAMA DE CASOS DE USO**
 
-    7.2.   Metodología, técnicas usadas
+![casos-de-uso](./media/casos-de-uso.png)
+
+**DIAGRAMA DE COMPONENTES**
+
+![componentes](./media/componentes.png)
+
+**DIAGRAMA DE DESPLIEGUE**
+![despliegue](./media/despliegue.png)
+
+7. Desarrollo de la propuesta 
+SONARCLOUD
+
+
+Versión Corregida (Con soporte asincrónico):
+
+**Descripción de los cambios:**
+
+**Cambio de Run() a RunAsync():**
+
+* En el código antiguo, el método app.Run() se utilizaba de manera sincrónica, lo que no es eficiente para aplicaciones que manejan múltiples solicitudes concurrentes. Ahora, se usa await app.RunAsync() para permitir que la aplicación se ejecute de forma asincrónica, mejorando la capacidad de respuesta de la aplicación.
+
+**Método principal async Task Main:**
+
+* El método principal se ha modificado para ser asincrónico, utilizando async Task Main en lugar de solo void Main. Esto permite el uso de await en el código principal del programa, lo que es necesario para las operaciones asincrónicas.
+
+**Uso de Task.FromResult en el endpoint:**
+
+* El uso de Task.FromResult con await es un patrón que prepara la aplicación para operaciones asincrónicas en endpoints. Aún si el resultado es inmediato, este enfoque permite evitar bloqueos y manejar de forma efectiva operaciones de larga duración, mejorando el rendimiento de la aplicación al escalar con múltiples solicitudes concurrentes. 
+
 
 8. Cronograma
    (personas, tiempo, otros recursos) Basado en las observaciones que la herramienta SonarQube les informara         sobre la aplicación, a fin de reducir la deuda tecnica, vulnerabilidades, fallas, etc. a 0.
