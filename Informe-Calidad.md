@@ -174,13 +174,18 @@ Abstract
 ![componentes](./media/componentes.png)
 
 **DIAGRAMA DE DESPLIEGUE**
+
 ![despliegue](./media/despliegue.png)
 
 7. Desarrollo de la propuesta 
+
 SONARCLOUD
 
+![sonar-1](./media/sonar-1.png)
 
 Versión Corregida (Con soporte asincrónico):
+
+![sonar-1.1](./media/sonar-1.1.png)
 
 **Descripción de los cambios:**
 
@@ -195,6 +200,35 @@ Versión Corregida (Con soporte asincrónico):
 **Uso de Task.FromResult en el endpoint:**
 
 * El uso de Task.FromResult con await es un patrón que prepara la aplicación para operaciones asincrónicas en endpoints. Aún si el resultado es inmediato, este enfoque permite evitar bloqueos y manejar de forma efectiva operaciones de larga duración, mejorando el rendimiento de la aplicación al escalar con múltiples solicitudes concurrentes. 
+
+![sonar-2](./media/sonar-2.png)
+
+Código Corregido:
+
+![sonar-2.1](./media/sonar-2.1.png)
+
+**Descripción de los cambios:**
+
+**Añadido de un Espacio de Nombres (namespace):**
+
+* Se añadió la declaración namespace ControlAsistencia para encapsular la clase Program. 
+
+**Imports Necesarios:**
+
+* Se han añadido las declaraciones using para importar los namespaces de Microsoft.AspNetCore.Builder y Microsoft.Extensions.DependencyInjection, que son necesarios para el funcionamiento del código.
+
+<br>
+
+**Move 'Program' into a named namespace**
+
+![sonar-3](./media/sonar-3.png)
+
+**Descripción de los cambios:** 
+
+* Eliminación de TemperatureF: Se ha removido la propiedad TemperatureF del record WeatherForecast, ya que no se utilizaba en el código. Esto ayuda a reducir la complejidad y mejora la mantenibilidad del código.
+
+
+**Código Corregido:**
 
 
 8. Cronograma
