@@ -10,19 +10,25 @@
 
 **Escuela Profesional de Ingeniería de Sistemas**
 
-**Proyecto *{Nombre de Proyecto}***
+**Proyecto *“Control de Asistencia”***
 
-Curso: *{Nombre de Asignatura}*
+Curso: *Calidad y Pruebas de Software*
 
-Docente: *{Nombre de Docente}*
+Docente: *Ing. Cuadros Quiroga, Patrick Jose*
 
 Integrantes:
 
-***{Apellidos y nombres del estudiante (código universitario)}***
+***
+Paja De la Cruz, Piero Alexander			(2020067576)
+
+Contreras Lipa, Alvaro Javier 			(2021070020)
+
+Hernández Cruz, Angel Gadiel		 	(2021070017)
+***
 
 **Tacna – Perú**
 
-***{Año}***
+***2024***
 
 **  
 **
