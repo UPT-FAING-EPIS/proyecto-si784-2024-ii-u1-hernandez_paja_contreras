@@ -132,6 +132,36 @@ Abstract
 6. <span id="_Toc52661357" class="anchor"></span>**Referentes teóricos**
     Diagramas de Casos de Uso, Diagrama de Clases, Diagrama de Componentes y Arquitectura.
 
+**REQUERIMIENTOS FUNCIONALES**
+
+- **RF1**: Autenticación: El sistema debe permitir el inicio de sesión mediante un nombre de usuario y contraseña. **(Prioridad: Alta)**
+- **RF2**: Validación de Usuario: El sistema debe verificar la validez del usuario y contraseña utilizando un procedimiento almacenado. **(Prioridad: Alta)**
+- **RF3**: Gestión de Empleados: El sistema debe permitir agregar, modificar y eliminar empleados. **(Prioridad: Alta)**
+- **RF4**: Visualización de Empleados: El sistema debe listar todos los empleados registrados en un DataGridView. **(Prioridad: Alta)**
+- **RF5**: Marcar Asistencia: El sistema debe permitir marcar la asistencia de un empleado usando su nombre y DNI. **(Prioridad: Alta)**
+- **RF6**: Listado de Asistencias: El sistema debe mostrar las asistencias marcadas por día. **(Prioridad: Alta)**
+- **RF7**: Obtener Faltas: El sistema debe permitir obtener las faltas de los empleados. **(Prioridad: Media)**
+- **RF8**: Configuración de Áreas y Puestos: El sistema debe permitir seleccionar áreas y puestos desde un combo box. **(Prioridad: Media)**
+- **RF9**: Interacción de UI: El sistema debe proporcionar retroalimentación visual (ej. cambio de color al pasar el mouse) para mejorar la experiencia del usuario. **(Prioridad: Media)**
+- **RF10**: Limpiar Campos: El sistema debe permitir limpiar los campos de entrada después de realizar una acción. **(Prioridad: Media)**
+
+
+**DEFINICIÓN, SIGLAS Y ABREVIATURAS**
+
+**Definiciones:**
+- **LOGIN**: Proceso de autenticación para usuarios y administradores en el sistema.
+- **FrmAsistencias**: Formulario para marcar y gestionar la asistencia de los empleados.
+- **FrmEmpleado**: Formulario dedicado a la gestión de información de los empleados, incluyendo agregar, modificar y eliminar registros.
+- **FrmEstadisticas**: Formulario que muestra estadísticas relacionadas con la asistencia de los empleados.
+- **FrmInicio**: Pantalla principal del sistema que ofrece acceso a diferentes funcionalidades y opciones.
+- **FrmLista**: Formulario que muestra una lista de empleados registrados y permite la selección para ver detalles o realizar acciones.
+
+**Siglas y Abreviaturas:**
+- **UI (User Interface)**: Interfaz de usuario que debe ser intuitiva y fácil de usar.
+- **DB (Database)**: Base de datos utilizada por el sistema para almacenar información de los empleados y sus asistencias.
+- **CRUD (Create, Read, Update, Delete)**: Conjunto de operaciones básicas para la gestión de datos en la base de datos.
+
+
 7. Desarrollo de la propuesta (Aqui va el analisis de su aplicación con SonarQube y Snyk, para que les muestre todos los aspectos a mejorar de su aplicación)
 
     7.1.   Tecnología de información 
