@@ -54,7 +54,8 @@ Resumen
 
 Abstract
 
-[1. Antecedentes o introducción](#_Toc52661346)
+[1. Antecedentes](#_Toc52661346)
+Cuando el usuario ingresa sus datos para iniciar sesión en la interfaz del sistema de control de asistencia, se le asignará un rol según su nivel de relevancia dentro del sistema (por ejemplo, usuario común, administrador, supervisor). Esta información se almacenará en una base de datos creada anteriormente, asegurando que los nombres de usuario y contraseñas sean únicos. 
 
 [2. Titulo](#_Toc52661347)
 
