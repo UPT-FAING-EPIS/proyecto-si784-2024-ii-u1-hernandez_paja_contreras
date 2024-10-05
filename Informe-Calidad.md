@@ -59,7 +59,14 @@ Cuando el usuario ingresa sus datos para iniciar sesión en la interfaz del sist
 
 [2. Titulo](#_Toc52661347)
 
+Control Asistencia
+
 [3. Autores](#_Toc52661348)
+
+1. Contreras Lipa, Alvaro Javier
+2. Hernandez Cruz, Angel Gadiel
+3. Paja De la Cruz, Piero Alexander
+
 
 [4. Planteamiento del problema](#_Toc52661349)
 
