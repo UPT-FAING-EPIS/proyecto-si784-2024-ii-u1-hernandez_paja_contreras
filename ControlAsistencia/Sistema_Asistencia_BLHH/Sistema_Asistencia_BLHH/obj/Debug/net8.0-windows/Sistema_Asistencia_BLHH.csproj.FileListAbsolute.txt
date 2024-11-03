@@ -1,0 +1,11 @@
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.csproj.AssemblyReference.cache
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.FrmAsistencias.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.FrmEmpleado.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.FrmInicio.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.FrmLista.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.Login.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.Properties.Resources.resources
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.csproj.GenerateResource.cache
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.csproj.CoreCompileInputs.cache
+C:\Users\ALVARO\Desktop\0211\ControlAsistencia\Sistema_Asistencia_BLHH\Sistema_Asistencia_BLHH\obj\Debug\net8.0-windows\Sistema_Asistencia_BLHH.sourcelink.json
