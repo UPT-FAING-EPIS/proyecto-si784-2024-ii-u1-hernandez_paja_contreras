@@ -251,6 +251,112 @@ no se encontraron errores en el código
 ![snyk](./media/snyk.png)
 
 
+**Reporte de Cobertura de Pruebas Unitarias**
+
+El objetivo del reporte de cobertura es evaluar qué porcentaje del código fuente ha sido ejecutado durante las pruebas automatizadas, ayudando a identificar áreas no probadas, garantizar la calidad del software, fomentar pruebas más exhaustivas y guiar el mantenimiento del código. Proporciona métricas claras para medir el progreso de las pruebas y priorizar esfuerzos en áreas críticas, reduciendo el riesgo de errores y asegurando que el software sea más robusto y confiable.
+
+![reporte_cobertura](./media/reporte_cobertura.png)
+
+**Tests Creados**
+
+![controller_tests](./media/controller_tests.png)
+
+1. HomeControllerTests.cs
+* Objetivo: Verificar las funcionalidades clave del controlador HomeController.
+* Cobertura de pruebas:
+    * Método Error: Asegura que el método Error retorna un ViewResult con un modelo de tipo ErrorViewModel y valida el TraceIdentifier proporcionado.
+    * Validación del modelo: Comprueba que el modelo del resultado tiene los datos esperados, lo cual confirma que el controlador procesa correctamente los errores.
+
+2. AdminControllerTests.cs
+* Objetivo: Probar las funcionalidades principales del controlador AdminController, incluyendo la gestión de empleados, asistencias, historial de cambios y reportes.
+* Cobertura de pruebas:
+    * Dashboard: Valida que los datos en ViewBag (total de empleados, asistencias, presentes, ausentes) se calculan correctamente en diferentes escenarios.
+    * Gestión de empleados y asistencias: Comprueba que las vistas GestionEmpleados y GestionAsistencias cargan las listas adecuadas de empleados y asistencias respectivamente.
+    * AgregarEmpleado: Verifica tanto los casos válidos como inválidos de agregar un empleado.
+    * Reportes: Asegura que los datos de asistencia por mes, presentes y ausentes son calculados y mostrados correctamente.
+
+3. AsistenciaControllerTests.cs
+* Objetivo: Validar las acciones del controlador AsistenciaController relacionadas con la gestión de asistencias e historial.
+* Cobertura de pruebas:
+    * Métodos Index e Historial: Verifica que retornan correctamente una vista.
+    * Registrar asistencia: Comprueba que el registro de asistencia (tanto con solicitudes GET como POST) funciona correctamente y retorna los resultados esperados.
+    * Setup: Asegura que el controlador se inicializa correctamente.
+
+4. EmpleadoControllerTests.cs
+*   Objetivo: Validar las funcionalidades del controlador EmpleadoController, especialmente en la gestión de empleados.
+*   Cobertura de pruebas:
+    * AgregarEmpleado: Valida tanto los casos de éxito como los errores en el registro de empleados (por ejemplo, cuando el modelo es inválido).
+    * VerEmpleados: Comprueba que la lista de empleados se carga correctamente.
+    * Actualización de la lista: Asegura que, tras agregar un empleado, la lista se actualiza adecuadamente y refleja los cambios esperados.
+
+![model_tests](./media/model_tests.png)
+
+
+1. Administrador.Tests.cs
+* Objetivo: Evaluar las funcionalidades principales del modelo Administrador, verificando que sus propiedades se comporten correctamente y cumplan con las reglas de validación.
+* Cobertura de pruebas:
+    * Propiedades: Se verifican los métodos de acceso (get y set) de las propiedades del modelo Administrador.
+    * Validación: Asegura que los datos cumplen con las restricciones definidas en las anotaciones de validación.
+    * Caso inválido: Prueba un escenario en el que una propiedad requerida no está configurada, validando que el modelo no sea válido.
+
+
+1. Administrador.Tests.cs
+* Objetivo: Evaluar las funcionalidades principales del modelo Administrador, verificando que sus propiedades se comporten correctamente y cumplan con las reglas de validación.
+* Cobertura de pruebas:
+Propiedades: Se verifican los métodos de acceso (get y set) de las propiedades del modelo Administrador.
+Validación: Asegura que los datos cumplen con las restricciones definidas en las anotaciones de validación.
+Caso inválido: Prueba un escenario en el que una propiedad requerida no está configurada, validando que el modelo no sea válido.
+
+2. Asistencia.Tests.cs
+* Objetivo: Validar la integridad y el comportamiento del modelo Asistencia, asegurando la correcta gestión de sus propiedades y su cumplimiento con las reglas de validación.
+* Cobertura de pruebas:
+    * Asignación de Propiedades: Verifica que las propiedades como Id, EmpleadoId, Empleado, Fecha y Estado se asignen y se obtengan correctamente.
+    * Validación Exitosa: Comprueba que el modelo es válido cuando todas las propiedades requeridas están configuradas adecuadamente.
+    * Caso Inválido: Valida que el modelo sea inválido cuando una propiedad requerida como Empleado es nula y revisa los mensajes de error generados.
+
+3. ErrorViewModelTests.cs
+* Objetivo: Evaluar el comportamiento de la propiedad ShowRequestId del modelo ErrorViewModel.
+* Cobertura de pruebas:
+    * Caso Nulo: Verifica que ShowRequestId devuelve false cuando RequestId es nulo.
+    * Caso Vacío: Confirma que ShowRequestId retorna false cuando RequestId está vacío.
+    * Caso Válido: Asegura que ShowRequestId devuelve true cuando RequestId contiene un valor válido.
+
+![view_tests](./media/view_tests.png)
+
+1. AdminViewTest.cs
+* Objetivo: Validar el correcto funcionamiento de las vistas relacionadas con la administración en el proyecto.
+* Cobertura de pruebas:
+    * AgregarEmpleadoModel: Verifica que la página se carga sin lanzar excepciones.
+    * DashboardModel: Valida que la vista del dashboard se cargue correctamente.
+    * GestionAsistenciasModel: Asegura que la lista de asistencias se gestione correctamente y simula datos para verificar la funcionalidad.
+    * GestionEmpleadosModel: Comprueba la correcta carga de la vista de gestión de empleados.
+    * HistorialCambiosModel: Valida la funcionalidad de historial de cambios y su manejo cuando no hay datos.
+    * ReportesModel: Verifica que la vista de reportes se cargue sin errores.
+    * VerEmpleadosModel: Comprueba que la lista de empleados se muestre correctamente en la vista y su manejo cuando no hay datos.
+
+2. AsistenciaViewTest.cs
+* Objetivo: Validar las vistas relacionadas con la gestión de asistencias en el proyecto.
+* Cobertura de pruebas:
+    * AgregarAsistenciaModel: Comprueba que la vista de agregar asistencia se cargue correctamente y valida la funcionalidad para agregar datos.
+    * FiltrarPorFechaModel: Valida que la funcionalidad de filtrado por fecha en la vista opere sin errores.
+    * HistorialModel: Asegura que la vista del historial se carga correctamente.
+    * ConfirmacionModel: Verifica que la página de confirmación funcione correctamente, incluyendo la simulación de éxito en la operación.
+
+3. EmpleadoViewTest.cs
+* Objetivo: Garantizar que las vistas relacionadas con los empleados funcionen correctamente.
+* Cobertura de pruebas:
+    * AgregarEmpleadoModel: Valida que la vista se cargue y que los empleados puedan ser añadidos correctamente.
+    * DetallesModel: Comprueba que los detalles de un empleado se carguen correctamente.
+    * IndexModel: Valida que la lista de empleados se cargue correctamente en la vista de índice y simula datos para verificar el conteo y contenido.
+
+4. HomeViewTest.cs
+* Objetivo: Validar las funcionalidades principales de las vistas de inicio y privacidad.
+* Cobertura de pruebas:
+    * Index: Comprueba que el método Index devuelve un resultado de tipo ViewResult.
+    * Privacy: Verifica que el método Privacy también devuelve un resultado de tipo ViewResult.
+
+
+
 Referencias:
 
 * Juanjo. (2022, September 20). Qué es SonarCloud y cómo mejora la calidad de tu código. Platzi. https://platzi.com/blog/sonarcloud-mejora-codigo-sast/
