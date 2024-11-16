@@ -163,31 +163,31 @@ Abstract
 
 **DIAGRAMA DE PAQUETES**
 
-![paquetes](./media/paquetes.png)
+![paquetes](./media/paquetesv2.png)
 
 **DIAGRAMA ENTIDAD-RELACIÓN**
 
-![entidad-relacion](./media/entidad-relacion.png)
+![entidad-relacion](./media/entidad-relacionv2.png)
 
 **DIAGRAMA DE CLASES**
 
-![clases](./media/clases.png)
+![clases](./media/clasesv2.png)
 
 **DIAGRAMA DE SECUENCIA**
 
-![secuencia](./media/secuencia.png)
+![secuencia](./media/secuenciav2.png)
 
 **DIAGRAMA DE CASOS DE USO**
 
-![casos-de-uso](./media/casos-de-uso.png)
+![casos-de-uso](./media/casos-de-usov2.png)
 
 **DIAGRAMA DE COMPONENTES**
 
-![componentes](./media/componentes.png)
+![componentes](./media/componentesv2.png)
 
 **DIAGRAMA DE DESPLIEGUE**
 
-![despliegue](./media/despliegue.png)
+![despliegue](./media/desplieguev2.png)
 
 
 7. Desarrollo de la propuesta 
